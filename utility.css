@@ -167,10 +167,20 @@
     font-weight: 700;
     font-size: 30px;
 }
+@media screen and (min-width:768px) {
+    .talent-h1{
+        font-size: 47px;
+    }
+}
 
 /* HIDDEN */
 
 @media screen and (max-width:768px) {
+    .hidden-mobile{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
     .hidden-tab{
         display: none;
     }
