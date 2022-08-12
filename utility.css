@@ -160,6 +160,21 @@
         align-items: center;
     }
 }
+.grid-3col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;  
+}
+/* for mobile */
+@media only screen and (max-width:768px){
+    .grid-3col{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 .talent-h1{
